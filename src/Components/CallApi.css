@@ -1,0 +1,67 @@
+.body{
+  width: 100%;
+  height: 100vh;
+  background-color: #002 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: lightblue ;
+  padding: 50px 20px;
+  margin: 0px 20px;
+  /*position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);*/
+}
+.title{
+  color: #0027 !important;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.input{
+    
+}
+.btn{
+  margin: 10px !important;
+  cursor: pointer;
+}
+&:hover{
+  background-color: #30906 !important;
+  transition: 1s;
+}
+.data{
+  background-color: lightblue ;
+  display: flex;
+  flex-direction: column;
+  margin: 9px;
+  padding: 10px 40px;
+}
+.row{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.min_max{
+  font-size: 17px;
+  color: #0027 !important;
+}
+.city{
+  text-transform: capitalize;
+  color: #0027 !important;
+  padding: 0 30px;
+  text-align: center;
+}
+.temp{
+  color: #0027 !important;
+  font-size: 46px;
+  text-align: center;
+}
